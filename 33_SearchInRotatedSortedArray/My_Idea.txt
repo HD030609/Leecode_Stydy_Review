@@ -1,0 +1,2 @@
+思路：
+     二分法变式。nums[left]到nums[mid]和nums[mid]到nums[right]总有一个是递增序列。if(nums[left]<nums[mid]),则左端递增，若nums[left]<=target<nums[mid]，则right=mid-1，否则left=mid+1。右端递增同理
