@@ -1,0 +1,5 @@
+思路：
+      回溯递归。
+      终止条件：target=0或者列表数组到最后一位。
+      直接跳过该位 dfs(target,idx+1)
+      若target-combination[idx]>=0,则dfs(target-combination[idx],idx) 
